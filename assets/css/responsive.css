@@ -83,6 +83,8 @@
 
 @media (min-width:768px) and (max-width:1023px)  {
 	*{overflow-x: hidden;}
+	.pagination,.pagination .page,.pagination ul,
+	.pagination ul li{overflow-x: visible;}
 	h1{font-size: 28px;}
 	h2{font-size: 20px !important;}
 	#content .luxury .pad h2{padding: 0 21%;}
@@ -92,7 +94,7 @@
 	#content .lead .items .img{height: 350px !important;}
 
 	#content .sub-banner .banner-img{height: 450px !important;}
-	#content .sub-banner .img{margin-top: 20%;}
+	#content .sub-banner .img{left: 14%;}
 	#content .sub-banner .text{margin-top: 35%;}
 	#content .sub-banner .text h1{padding: 0 28% !important;}
 

@@ -4,6 +4,9 @@
 
 <div id="wrapper">
 	<div id="content">
+<style type="text/css">
+.text h1{padding: 0 39% !important;}
+</style>
 		<!-- sub-banner -->
 		<div class="container-fluid sub-banner">
 		    <div id="myCarousel" class="carousel slide" data-ride="carousel">	

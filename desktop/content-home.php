@@ -11,14 +11,18 @@
 				    </ol>
 
 				    <!-- Wrapper for slides -->
+
 				    <div class="carousel-inner">
+				    	<div class="box-img" style="position: absolute;z-index: 10;width: 100%;height: 100%;display: flex;'justify-content: center;align-items: center;">
+		              		<div class="img" style="display: flex;justify-content: center;align-items: center;width: 100%;">
+		              			<img src="assets/images/Loca-Resident-logo.svg" >
+		              		</div>
+						</div>	
 				      <div class="item active banner-img" data-fullscreen>
 				      	  <div class="gradientb"></div>
 			      		  <img data-imgzoom data-sarallax src="assets/images/Condo-option31-banner-01.jpg" alt="OMB-Advertising-Cambodia">
 				          <div class="carousel-caption">
-				              	<div class="box-img">
-				              		<img src="assets/images/Loca-Resident-logo.svg">
-								</div>			          	
+				              			          	
 				          </div>			        
 				      </div>
 
@@ -26,9 +30,7 @@
 				      	<div class="gradientb" ></div>
 				        <img data-imgzoom data-sarallax src="assets/images/Condo-option31-banner-02.jpg" alt="OMB-Advertising-Cambodia">
 				          <div class="carousel-caption">
-				          	  <div class="box-img">
-			              		 <img src="assets/images/Loca-Resident-logo.svg">
-							  </div>		          	
+				          	  		          	
 				          </div>
 				      </div>
 
@@ -36,9 +38,7 @@
 				      	<div class="gradientb" ></div>
 				        <img data-imgzoom data-sarallax src="assets/images/Condo-option31-banner-03.jpg" alt="OMB-Advertising-Cambodia">
 				          <div class="carousel-caption">
-				          	<div class="box-img">
-				              	<img src="assets/images/Loca-Resident-logo.svg">
-							</div>		          	
+				          			          	
 				          </div>
 				      </div>
 
@@ -121,14 +121,24 @@
 	.modal-body iframe{width: 100%;height: 100%;}
 </style>
 
-			<!-- WHY CHOOSE LOCA RESIDENT CONDOMINIUM? -->
-			<div class="container-fluid resident">
-				<div class="why-choose-us">
-					<div class="gradientbb"></div>
-					<img src="assets/images/Condo-option31-statistic-homepage-01.jpg">
-					<div class="container group-resident pad">
-						<h2 class="wow bounceInRight slow">WHY CHOOSE LOCA RESIDENT CONDOMINIUM?</h2>
-						<div class="row">
+
+<style type="text/css">
+	/*PEOPLE TRUST US*/
+#content .resident{width: 100%;margin: 0 auto;display: flex;justify-content: center;overflow: hidden;position: relative;padding-bottom: 80px;}
+#content .resident .jarallax{width: 100%;height: 800px;position: absolute;}
+#content .group-resident h2{position: relative;text-align: center;margin-top: 10%;padding: 0 31%;color: #fff;}
+
+</style>
+			<!-- WHY CHOOSE LOCA RESIDENT CONDOMINIUM? -->			
+    		<div class="container-fluid resident" id="counter">
+				<div class="jarallax">
+					<div class="gradientb"></div>
+			        <img class="jarallax-img" src="assets/images/Condo-option31-statistic-homepage-01.jpg" alt="">
+			    </div>
+				<div class="container group-resident">
+					<h2>WHY CHOOSE LOCA RESIDENT CONDOMINIUM?</h2>
+					
+					<div class="row">
 							<div class="col-sm-4 wow fadeInRight slow" data-wow-duration="0.2s">
 								<div class="items">
 									<div class="img">
@@ -205,8 +215,7 @@
 						<div class="button">
 							<button>REGISTER NOW</button>
 						</div>
-					</div>
-				</div>			
+				</div>
 			</div>
 
 		</div>

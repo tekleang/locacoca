@@ -12,12 +12,14 @@ $(document).ready(function(){
 				$('#header .nav-bottom .logo').addClass('shrink-logo');
 				$('#header .nav-bottom .menu').addClass('shrink-menu');
 				$('#header .nav-bottom .media').addClass('shrink-media');
+				$('#content .sub-banner .img').addClass('shrink-img');
 			}else {
 				$('#header .container-fluid-menu').removeClass('shrink-container-fluid-menu');
 				$('#header .nav-bottom .box-logo').removeClass('shrink-box-logo');
 				$('#header .nav-bottom .logo').removeClass('shrink-logo');
 				$('#header .nav-bottom .menu').removeClass('shrink-menu');
 				$('#header .nav-bottom .media').removeClass('shrink-media');
+				$('#content .sub-banner .img').removeClass('shrink-img');
 			}
 		}
 		if ($(window).scrollTop()) {

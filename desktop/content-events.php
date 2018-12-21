@@ -1,9 +1,7 @@
 <?php 
 	include_once('../header-desktop.php');
  ?>
-<style type="text/css">
-	.text h1{padding: 0 39% !important;}
-</style>
+
 <div id="wrapper">
 	<div id="content">
 		<!-- sub-banner -->
